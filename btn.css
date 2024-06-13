@@ -1,0 +1,355 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.dev{
+    
+    text-align: center;
+    font-size: 30px;
+    color: orangered;
+    margin-bottom: -5%;
+}
+/* ======== .ajith ==== */
+.ajith{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.vijay{
+    width: 300px;
+    background-color: #6e6b6eb1;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 4px 8px 12px rgba(0,0,0,.9);
+    transition: all 1s;
+    margin-top: 40px;
+}
+.ajith .vijay:hover{
+    transform: scale(1.2);
+}
+.love{
+    font-size: 25px;
+    color: whitesmoke;
+    text-align: center;
+}
+.vijay .btn{
+    font-size: 20px;
+    margin-left: 1%;
+    margin-bottom: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    background-color: orangered;
+    cursor: pointer;
+    box-shadow: 4px 6px 8px;
+    border: none;
+}
+
+/* ====== box ===== */
+.box{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    /* padding: 10px; */
+}
+.max{
+    width: 300px;
+    background-color: #6e6b6eb1;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 4px 8px 12px rgba(0,0,0,.9);
+    transition: all 1s;
+    margin-top: 40px;
+}
+.box .max:hover{
+    transform: scale(1.2);
+}
+.html{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 25px;
+}
+.max .btn{
+    font-size: 20px;
+    margin-left: 1%;
+    margin-bottom: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    background-color: orangered;
+    cursor: pointer;
+    box-shadow: 4px 6px 8px;
+    border: none;
+}
+
+/* ===== css ====== */
+.css{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.js{
+    width: 300px;
+    overflow: hidden;
+    background-color: #6e6b6eb1;
+    border-radius: 8px;
+    box-shadow: 4px 8px 12px rgba(0,0,0,.9);
+    margin-top: 40px;
+    transition: all 1s;
+}
+.css .js:hover{
+    transform: scale(1.2);
+}
+.boost{
+    font-size: 25px;
+    color: whitesmoke;
+    text-align: center;
+}
+.js .btn{
+    font-size: 20px;
+    margin-left: 1%;
+    margin-bottom: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    background-color: orangered;
+    cursor: pointer;
+    box-shadow: 4px 6px 8px;
+    border: none;
+}
+
+/* ============================================= fruit =========================================== */
+
+.head{
+    text-align: center;
+    color: orangered;
+}
+
+/* ========= fruit ========= */
+.fruit{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.fruit1{
+    width: 300px;
+    background-color: #6e6b6eb1;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 4px 8px 12px rgba(0,0,0,.9);
+    transition: all 1s;
+}
+.fruit1:hover{
+    transform: scale(1.2);
+}
+.img p{
+    font-size: 25px;
+    color: whitesmoke;
+    text-align: center;
+}
+.fruit1 .btn{
+    font-size: 20px;
+    margin-left: 1%;
+    margin-bottom: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    background-color: orangered;
+    cursor: pointer;
+    box-shadow: 4px 6px 8px;
+    border: none;
+}
+
+/* ======== fruit2 ========== */
+.fruit2{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.fruit2 .rcb{
+    width: 300px;
+    background-color: #6e6b6eb1 ;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 4px 8px 12px rgba(0,0,0,.9);
+    transition: all 1s;
+}
+.fruit2 .rcb:hover{
+    transform: scale(1.2);
+}
+.karthi{
+    color: whitesmoke;
+    font-size: 25px;
+    text-align: center;
+}
+.rcb .btn{
+    font-size: 20px;
+    margin-left: 1%;
+    margin-bottom: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    background-color: orangered;
+    cursor: pointer;
+    box-shadow: 4px 6px 8px;
+    border: none;
+}
+
+/* ======= fruit3 ========== */
+.fruit3{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.fruit3 .mi{
+    width: 300px;
+    background-color: #6e6b6eb1;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 4px 8px 12px rgba(0,0,0,.9);
+    transition: all 1s;
+}
+.fruit3 .mi:hover{
+    transform: scale(1.2);
+}
+.kkr{
+    font-size: 25px;
+    color: whitesmoke;
+    text-align: center;
+}
+.mi .btn{
+    font-size: 20px;
+    margin-left: 1%;
+    margin-bottom: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    background-color: orangered;
+    cursor: pointer;
+    box-shadow: 4px 6px 8px;
+    border: none;
+}
+
+/* ========= fruit4 ====== */
+.fruit4{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.fruit4 .son{
+    width: 300px;
+    background-color: #6e6b6eb1;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0,0,0,.2);
+    transition: all 1s;
+}
+.fruit4 .son:hover{
+    transform: scale(1.2);
+}
+.mon{
+    font-size: 25px;
+    color: whitesmoke;
+    text-align: center;
+}
+.son .btn{
+    font-size: 20px;
+    margin-left: 1%;
+    margin-bottom: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    background-color: orangered;
+    cursor: pointer;
+    box-shadow: 4px 6px 8px;
+    border: none;
+}
+
+/* ================================ cold drink =============================================== */
+
+.dev{
+    color: orangered;
+    text-align: center;
+    font-size: 30px;
+}
+/* ===== vikram ==== */
+.vikram{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.murugan{
+    width: 300px;
+    background-color: #6e6b6eb1;
+    box-shadow: 4px 8px 12px rgba(0,0,0,.9);
+    overflow: hidden;
+    transition: all 1s;
+}
+.vikram .murugan:hover{
+    transform: scale(1.2);
+
+}
+.brak{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 25px;
+}
+.murugan .btn{
+    font-size: 20px;
+    margin-left: 1%;
+    margin-bottom: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    background-color: orangered;
+    cursor: pointer;
+    box-shadow: 4px 6px 8px;
+    border: none;
+}
+
+/* ====== uman ==== */
+.uman{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.vs{
+    width: 300px;
+    overflow: hidden;
+    background-color: #6e6b6eb1;
+    box-shadow: 4px 8px 12px rgba(0,0,0,.9);
+    transition: all 1s;
+
+}
+.uman .vs:hover{
+    transform: scale(1.2);
+}
+.aloen{
+    font-size: 25px;
+    color: whitesmoke;
+    text-align: center;
+
+}
+.vs .btn{
+    font-size: 20px;
+    margin-left: 1%;
+    margin-bottom: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    background-color: orangered;
+    cursor: pointer;
+    box-shadow: 4px 6px 8px;
+    border: none;
+}

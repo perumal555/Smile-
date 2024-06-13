@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background-color: whitesmoke;
+            
+        }
+        .head{
+            text-align: center;
+            color: orangered;
+        }
+
+        /* ========= fruit ========= */
+        .fruit{
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 100px;
+        }
+        .fruit1{
+            width: 300px;
+            background-color: #6e6b6eb1;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 4px 8px 12px rgba(0,0,0,.9);
+            transition: all 1s;
+        }
+        .fruit1:hover{
+            transform: scale(1.2);
+        }
+        .img p{
+            font-size: 25px;
+            color: whitesmoke;
+            text-align: center;
+        }
+        @media all and (max-width:600px){
+            .fruit1{
+                  margin-top: 30px;
+                }
+        }
+        
+        /* ======== fruit2 ========== */
+        .fruit2{
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 100px;
+        }
+        .fruit2 .rcb{
+            width: 300px;
+            background-color: #6e6b6eb1 ;
+            overflow: hidden;
+            border-radius: 8px;
+            box-shadow: 4px 8px 12px rgba(0,0,0,.9);
+            transition: all 1s;
+        }
+        .fruit2 .rcb:hover{
+            transform: scale(1.2);
+        }
+        .karthi{
+            color: whitesmoke;
+            font-size: 25px;
+            text-align: center;
+        }
+        @media all and (max-width:600px){
+            .rcb{
+                  margin-top: 30px;
+                }
+        }
+
+        /* ======= fruit3 ========== */
+        .fruit3{
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 100px;
+        }
+        .fruit3 .mi{
+            width: 300px;
+            background-color: #6e6b6eb1;
+            overflow: hidden;
+            border-radius: 8px;
+            box-shadow: 4px 8px 12px rgba(0,0,0,.9);
+            transition: all 1s;
+        }
+        .fruit3 .mi:hover{
+            transform: scale(1.2);
+        }
+        .kkr{
+            font-size: 25px;
+            color: whitesmoke;
+            text-align: center;
+        }
+        @media all and (max-width:600px){
+            .mi{
+                  margin-top: 30px;
+                }
+        }
+
+        /* ========= fruit4 ====== */
+        .fruit4{
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 100px;
+        }
+        .fruit4 .son{
+            width: 300px;
+            background-color: #6e6b6eb1;
+            overflow: hidden;
+            border-radius: 8px;
+            box-shadow: 0px 2px 4px rgba(0,0,0,.2);
+            transition: all 1s;
+        }
+        .fruit4 .son:hover{
+            transform: scale(1.2);
+        }
+        .mon{
+            font-size: 25px;
+            color: whitesmoke;
+            text-align: center;
+        }
+        @media all and (max-width:600px){
+            .son{
+                  margin-top: 30px;
+                }
+        }
+/* =========== .fruit1 btn ========== */
+        .fruit1 .btn{
+            font-size: 20px;
+            margin-left: 40%;
+            margin-bottom: 20px;
+            padding: 5px;
+            border-radius: 10px;
+            color: white;
+            background-color: orangered;
+            cursor: pointer;
+            box-shadow: 4px 6px 8px;
+            border: none;
+        }
+/* ========= rcb btn ======== */
+        .rcb .btn{
+            font-size: 20px;
+            margin-left: 1%;
+            margin-bottom: 20px;
+            padding: 5px;
+            border-radius: 10px;
+            color: white;
+            background-color: orangered;
+            cursor: pointer;
+            box-shadow: 4px 6px 8px;
+            border: none;
+        }
+/* ========== mi btn ========= */
+        .mi .btn{
+            font-size: 20px;
+            margin-left: 1%;
+            margin-bottom: 20px;
+            padding: 5px;
+            border-radius: 10px;
+            color: white;
+            background-color: orangered;
+            cursor: pointer;
+            box-shadow: 4px 6px 8px;
+            border: none;
+        }
+ /* =========== son btn ========  */
+        .mon .btn{
+            font-size: 20px;
+            margin-left: 10%;
+            margin-bottom: 20px;
+            padding: 5px;
+            border-radius: 10px;
+            color: white;
+            background-color: orangered;
+            cursor: pointer;
+            box-shadow: 4px 6px 8px;
+            border: none;
+        }
+
+
+        
+    </style>
+</head>
+<body>
+    
+     <div class="head">
+                <h1>F r u i t</h1>
+     </div>
+            <div class="fruit">
+                <div class="fruit1">
+                        <img src="./image/fruit10.jpeg" alt="" width="300px" height="200px">
+                            <div class="img">
+                                <p>Apple : 40% OFF</p>
+                                <p>1kg - 150 </p>
+                                <button class="btn">Buy</button>
+                             </div>
+                </div>
+
+                
+                <div class="fruit1">
+                        <img src="./image/fruit11.jpg" alt="" width="300px" height="200px">
+                            <div class="img">
+                                <p>Gerrn Apple : 40% OFF</p>
+                                <p>1kg - 200</p>
+                                <button class="btn">Buy</button>
+                            </div>
+                </div>
+
+                <div class="fruit1">
+                        <img src="./image/fruit12.jpg" alt="" width="300px" height="200px">
+                            <div class="img">
+                                <p>Orange : 40% OFF</p>
+                                <p>1kg - 120</p>
+                                <button class="btn">Buy</button>
+                            </div>
+
+                </div>
+            </div>
+
+
+            <div class="fruit2">
+                <div class="rcb">
+                    <img src="./image/fruit13.jpg" alt="" width="300px" height="200px">
+                        <div class="karthi">
+                             <p>Mango : 40% OFF</p>
+                             <p>1kg - 110</p>
+                             <button class="btn">Buy</button>
+                        </div>
+                </div>
+
+                <div class="rcb">
+                    <img src="./image/fruit14.jpg" alt="" width="300px" height="200px">
+                        <div class="karthi">
+                            <p>Banana : 40% OFF</p>
+                            <p>1kg - 140</p>
+                            <button class="btn">Buy</button>
+                         </div>
+                </div>
+
+                <div class="rcb">
+                    <img src="./image/fruit15.jpg" alt="" width="300px" height="200px">
+                        <div class="karthi">
+                            <p>Pineapple : 40% OFF</p>
+                            <p>1kg - 100</p>
+                            <button class="btn">Buy</button>
+                        </div>
+                 </div>
+            </div>            
+
+            <div class="fruit3">
+                <div class="mi">
+                    <img src="./image/fruit16.jpg" alt="" width="300px" height="200px">
+                        <div class="kkr">
+                            <p>Watermelon : 40% OFF</p>
+                            <p>1kg - 50</p>
+                            <button class="btn">Buy</button>
+                        </div>
+                </div>
+
+                <div class="mi">
+                     <img src="./image/fruit17.jpg" alt="" width="300px" height="200px">
+                        <div class="kkr">
+                            <p>Papaya : 40% OFF</p>
+                            <p>1kg - 80</p>
+                            <button class="btn">Buy</button>
+                        </div>
+                </div>
+
+                <div class="mi">
+                     <img src="./image/fruit18.jpg" alt="" width="300px" height="200px">
+                        <div class="kkr">
+                            <p>Strawbeery : 40% OFF</p>
+                             <p>1kg - 210</p>
+                             <button class="btn">Buy</button>
+                        </div>
+                </div>
+            </div>
+
+            <div class="fruit4">
+                <div class="son"> 
+                    <img src="./image/fruit19.jpg" alt="" width="300px" height="200px">
+                        <div class="mon">
+                            <p>Grape : 40% OFF</p>
+                            <p>1kg - 180</p>
+                            <button class="btn">Buy</button>
+                        </div>
+                </div>
+
+                <div class="son">
+                    <img src="./image/fruit20.jpg" alt="" width="300px" height="200px">
+                        <div class="mon">
+                            <p>Dragon : 40% OFF</p>
+                            <p>1kg - 250</p>
+                            <button class="btn">Buy</button>
+                        </div>
+                </div>
+
+                <div class="son">
+                     <img src="./image/fruit7.jpg" alt="" width="300px" height="200px">
+                        <div class="mon">
+                            <p>Fruites : 40% OFF</p>
+                            <button class="btn">Buy</button>
+                        </div>
+                </div>    
+                        
+            </div>
+
+               
+</body>
+</html>

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background-image: url(./image/image.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .reform h1{
+            color:#ffa07a;
+            text-align: center;
+            font-weight: 700;
+
+        }
+        .reform{
+            background-color: rgba(0, 0, 0, 0.7);
+            width: 500px;
+            margin-left: 30%;
+            margin-top: 10%;
+            padding: 10px;
+            
+        }
+        .reform input{
+            padding: 10px;
+            font-size: 30px;
+            margin-left: 50px;
+            margin-top: 20px;
+            align-items: center;
+            border-radius: 20px;
+            border: none;
+            background-color: whitesmoke;
+
+        }
+        .reform input:hover{
+            color: whitesmoke;
+            background-color:#6e6b6eb1 ;
+            
+        }
+        .btn{
+            text-align: center;
+            margin-top: 40px;
+            align-items: center;
+            padding: 10px;
+            
+        }
+        .btn button{
+            padding: 10px;
+            font-size: 20px;
+            border-radius: 20px;
+            background-color: orange;
+            cursor: pointer;
+            color: whitesmoke;
+            border: none;
+        }
+        .btn button:hover{
+            color: orange;
+            background: none;            
+
+        }
+        .box{
+            margin-left: 20px;
+            margin-top: 10px;
+            
+        }
+        .box span{
+            color: whitesmoke;
+            margin-left: 50%;
+            cursor: pointer;
+            
+        }
+        @media(max-width:800px)
+{.body{
+    height:100%;
+    width: 100%;
+    display: flex;
+}
+        .reform{
+            margin: auto;
+            padding: auto;
+        }
+
+            
+         }
+         @media screen and (max-width: 767px)
+{.body{
+           
+    background-size: cover;
+}
+        .reform{
+            padding: 0%;
+        width: 100%;
+        }
+
+            
+         }
+
+        
+        /* .box label{
+            font-size: 30px;
+            color: whitesmoke;
+        } */
+    </style>
+</head>
+<body>
+    <div class="reform">
+        <h1>Login</h1>
+        <form action="">
+            <div>
+                <input type="text" placeholder="User Name" >
+            </div>
+
+            <div>
+                <input type="email" placeholder="Email" >
+            </div>
+
+            <div>
+                <input type="password" placeholder="Password" >
+            </div>
+
+            <div class="box">
+                <input type="checkbox"><span>Forget password</span>
+                
+            </div>
+
+            
+                
+            
+
+            <!-- <div class="box">
+                <input type="radio" value="male" name="gender">
+                <label for="male">Male</label>
+                <input type="radio" value="female" name="gender">
+                <label for="female">Female</label>
+            </div> -->
+
+            <div class="btn">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,535 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* ====== navbar ======= */
+.navbar{
+    width: 98%;
+    padding: 10px;
+}
+.navbar nav{
+    display: flex;
+    justify-content: space-around;
+}
+.navbar .page ul li{
+    display: inline-block;
+    margin: 10px;
+    
+
+}
+.navbar .page ul li a{
+    text-decoration: none;
+    align-items: center;
+    font-size: 25px;
+    color: whitesmoke;
+    text-transform: capitalize;
+    transition: all 0.8s;
+    position: relative;
+
+}
+.navbar .page ul li a:hover{
+    color: orangered;
+   
+}
+.navbar .page ul li a::before{
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+
+    height: 3px;
+    background-color: orangered;
+    transition:.5s;
+}
+.navbar .page ul li a:hover::before{
+    width: 100%;
+
+}
+@media all and (max-width:600px){
+    .page{
+        display: none;
+    }
+    .mani{
+        display: none;
+    }
+    .showmenu{
+        display: block;
+    }
+}
+
+/* ===== login ===== */
+.login{
+    margin-top: 2%;
+}
+@media all and(max-width:600px){
+    .login a{
+        margin-right: 50px;
+    }
+}
+
+.login a{
+    color: whitesmoke;
+    background-color: orangered;
+    border-radius: 20px;
+    padding: 5px;
+    width: 100px;
+    text-decoration: none;
+    position: relative;
+    
+    /* margin-left: 50%; */
+    font-size: 25px;
+    cursor: pointer;
+    border: none;
+}
+
+.login a:hover{
+    color: orangered;
+    background: none;
+}
+
+/* ========= mani / menu-line ============= */
+
+.menu-line{
+    height: 3px;
+    width: 20px;
+    background-color: whitesmoke;
+    margin-bottom: 3px;
+    
+}
+.mani{
+    margin-top: 35px;
+    cursor: pointer;
+    margin-left: 3%;
+    /* display: none; */
+}
+
+@media all and (max-width:600px){
+ .page ul{
+        flex-direction:column;
+    }
+
+    .mani{
+        display: block;
+        margin-top: 20px;
+    }
+    
+}
+
+/* ====== logo ====== */
+.logo{
+    margin-top: 15px;
+}
+/* @media all and (max-width:600px){
+
+} */
+
+    .box{
+    margin-left: 50%;
+    width: 600px;
+    height: 400px;
+    margin-top: -25%;
+    position: relative;
+    background-image: url(./image/fruitlogo.jpg);
+    animation: perumal 10s infinite;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 4px 8px 12px whitesmoke;
+}
+
+@keyframes perumal{
+    0%{
+        background-image: url(./image/fruitlogo1.jpg);
+        /* width: 600px;
+        height: 400px; */
+    }
+    25%{
+        background-image: url(./image/fruitlogo2.jpg);
+        /* width: 600px;
+        height: 400px; */
+    }
+    50%{
+        background-image: url(./image/fruitlogo3.jpg);
+        /* width: 600px;
+        height: 400px; */
+    }
+    75%{
+        background-image: url(./image/fruitlogo4.jpg);
+        /* width: 600px;
+        height: 400px; */
+    }
+}
+@media all and (max-width:600px){
+    .box{
+        margin-left: 40px;
+        margin-top: 20px;
+        width: 400px;
+        height: 300px;
+        
+    }
+}
+
+/* ====== text ==== */
+h3{
+    color: whitesmoke;
+    margin-left: 15%;
+    margin-top: 10%;
+    font-size: 25px;
+}
+h1{
+    color: whitesmoke;
+    margin-left: 2%;
+    font-size: 40px;
+    font-weight: bold;
+}
+p{
+    color: whitesmoke;
+    margin-left: 2%;
+}
+
+/* ===== btn ==== */
+.btn{
+    cursor: pointer;
+    margin-left: 18%;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    /* color: whitesmoke; */
+    background-color: orangered;
+    border: none;
+}
+.btn a{
+    text-decoration: none;
+    color: whitesmoke;
+    
+}
+.btn:hover{
+    color: orangered;
+    background: none;
+    
+    
+}
+
+/* ===== menu ==== */
+/* .image{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    padding: 10px;
+}
+.image p{
+    padding: 10px;
+} */
+.image{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+
+}
+.image img{
+    width: 10%;
+    height:100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid whitesmoke;
+    box-shadow: 4px 8px 12px whitesmoke;
+    transition: all ease-in-out 0.9s;
+}
+.image img:hover{
+    width: 30%;
+}
+@media all and (max-width:600px){
+    .menu{
+        margin-top: 30px;
+    }
+    .image img:hover{
+        width: 50%;
+    }
+}
+/* .menu{
+    width: 300px;
+    background-color: #6e6b6be1;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0,0,0,.2);
+    transition: all 1s;
+}
+.menu img{
+    width: 500px;
+    transition: 1s;
+
+}
+.menu img:hover{
+    transform: scale(1.2);
+} */
+
+/* ======== mas ====== */
+/* .mas{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    padding: 10px;
+}
+.mas p{
+    padding: 10px;
+} */
+.mas{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    margin-top: 100px;
+}
+.mas img{
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid  whitesmoke;
+    box-shadow: 4px 8px 12px whitesmoke;
+    transition: all ease-in-out 0.9s;
+
+}
+.mas img:hover{
+    width: 30%;
+}
+@media all and (max-width:600px){
+    .arun{
+        margin-top: 30px;
+    }
+    .mas img:hover{
+        width: 50%;
+    }
+}
+/* .arun{
+    width: 300px;
+    background-color: #6e6b6be1;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0,0,0,.2);
+    transition: all 1s;
+}
+.arun img{
+    width: 500px;
+    transition: 1s;
+}
+.arun img:hover{
+    transform: scale(1.2);
+} */
+
+/* ====== perumal ===== */
+/* .perumal{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    padding: 10px;
+}
+.perumal P{
+    padding: 10px;
+} */
+.perumal{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+
+}
+.perumal img{
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 4px 8px 12px whitesmoke;
+    border: 2px solid whitesmoke;
+    transition: all ease-in-out 0.9s;
+}
+.perumal img:hover{
+    width: 30%;
+}
+@media all and (max-width:600px){
+    .muthu{
+        margin-top: 30px;
+    }
+    .perumal img:hover{
+        width: 50%;
+    }
+}
+/* .muthu{
+    width: 300px;
+    background-color: #6e6b6be1;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0,0,0,.2);
+    transition: all 1s;
+}
+.muthu img{
+    width: 500px;
+    transition: 1s;
+}
+.muthu img:hover{
+    transform: scale(1.2);
+} */
+
+/* ========= footer ======== */
+.np h2{
+    margin-top: 10%;
+}
+
+.np{
+    width: 100%;
+    text-align: center;
+    color: orangered;  
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+
+
+
+/* ======== cantainer ====== */
+
+.cantainer{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 100px;
+}
+.cantainer .contant h2{
+    color: whitesmoke;
+}
+.contant ul li a{
+    text-decoration: none;
+    align-items: center;
+    font-size: 23px;
+    color: whitesmoke;
+    
+    text-transform: capitalize;
+    transition: all 0.8s;
+    position: relative;
+
+}
+.cantainer a{
+
+    font-size: 20px;
+}
+.contant ul li a:hover{
+    color: orangered;
+   
+}
+.contant ul li a::before{
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+
+    height: 3px;
+    background-color: orangered;
+    transition:.5s;
+}
+.contant ul li a:hover::before{
+    width: 100%;
+
+}
+.contant ul li{
+    padding: 10px;
+}
+.contant li{
+    display: block;
+}
+.contant a{
+    color: whitesmoke;
+    margin-left: 5px;
+    text-decoration: none;
+}
+.contant a:hover{
+    color: orangered;
+}
+@media all and (max-width:600px){
+    .cantainer {
+        flex-direction: column;
+        padding: 20px;
+    }
+    
+
+}
+    
+
+
+
+/* ===== arrow ===== */
+.arrow{
+    margin-left: 95%;
+}
+.arrow a i{
+    color: whitesmoke;
+    padding: 10px;
+    font-size: 200%;
+    
+}
+@media all and (max-width:600px){
+    .fa-arrow-up{
+        margin-left: -10px;
+    }
+}
+
+/* ====== feed ==== */
+
+.head h2{
+    color: orangered;
+    /* align-items: center; */
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 100px;
+    /* text-shadow: 0px 0px 2px,0px 0px 4px,2px 2px 8px orangered; */
+
+}
+.feed{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.back{
+    width: 300px;
+    background-color: #6e6b6be1;
+    border-radius: 8px;
+    overflow: hidden;
+    filter: drop-shadow(1px 1px 10px whitesmoke);
+    transition: all 1s;
+    padding: 15px;
+    
+}
+.back i{
+    padding: 5px;
+}
+.back img{
+    margin-left: 90px;
+    transition: 1s;
+}
+.back img:hover{
+    transform: scale(1.2);
+}
+@media all and (max-width:600px){
+    .back{
+        margin-top: 30px;
+    }
+}
+
+
+/* ======== id about ========= */
+@media all and (max-width:600px){
+    #about{
+        margin-right: -20px;
+    }
+}
